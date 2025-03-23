@@ -1,0 +1,79 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# GCov Files
+src/*.gcov
+src/*.gcno
+src/*.gcda
+src/obj/*.gcov
+src/obj/*.gcno
+src/obj/*.gcda
+src/gcov_arvore.txt
+src/gcov_list.txt
+src/gcov_io.txt
+src/gcov_ia.txt
+src/gcov_logica.txt
+src/gcov_tabuleiro.txt
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+src/*~
+src/*#
+src/obj/*.o
+src/main
+src/test_tabuleiro
+src/test_logica
+src/test_arvore
+src/test_list
+src/test_io
+src/test_ia
+
+include/gtest
